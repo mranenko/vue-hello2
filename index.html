@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello 2</title>
+  <script src="node_modules/vue/dist/vue.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; }
+    html { font: 400 16px/1.5 sans-serif; }
+    body { background: #f0f2f4; color: #505254; padding: 2rem; }
+    .title { margin: 0 0 1rem; }
+    #app { background: #e0e2e4; padding: 2rem; }
+  </style>
+</head>
+
+
+<body>
+  <div id="app">
+    <h1 class="title">Welcome to Vue</h1>
+    {{ hello }}
+  </div>
+</body>
+
+
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+      hello: 'Hello World',
+    },
+  });
+</script>
+</html>
