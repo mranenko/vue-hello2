@@ -2,7 +2,7 @@
   "name": "hello2",
   "version": "1.0.0",
   "main": "index.html",
-  "repository": "https://github.com/mranenko/vue-hello2",
+  "repository": "https://github.com/mranenko/vue2-hello2",
   "license": "MIT",
   "dependencies": {
     "live-server": "^1.2.1",
