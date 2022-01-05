@@ -3,41 +3,43 @@
 
 # Hello 2
 
-Simple 'Hello World' with a Vue 2 package.
+Simple 'Hello World' with Vue 2.
 
 > Note: The latest Vue 2 version used here is 2.6.14.
 
+---
 
 ## Run this project
 
-### 1. Install dependencies
+1. **Install dependencies**
 
 ```
 yarn
 ````
 
 
-### 2. Preview in the browser
+2. **Preview in the browser**
 
 ```
 yarn start
-```
+````
 
-> Note: The above command will open `index.html` on port 20221.
+> Note: The above command will open `index.html` in a browser on port 20221. It will listen for any code changes and reload the page as necessary.
 
+---
 
-## Steps to re-create
+## Steps to re-create this project
 
-### 1. Initialize `yarn`
+1. **Initialize `yarn`**
 
-Initialize `yarn` (or `npm`) and create `package.json`.
+Initialize `yarn` and create `package.json`.
 
 ```
 yarn init
 ````
 
 
-### 2. Add dependencies
+2. **Add dependencies**
 
 ```
 yarn add live-server
@@ -47,14 +49,14 @@ yarn add vue@2.6.14
 > Note: `live-server` package is added to enable live reload functionality.
 
 
-### 3. Add a Vue 2 reference in index.html
+3. **Add a Vue 2 reference in index.html**
 
 ```
 <script src="node_modules/vue/dist/vue.min.js"></script>
 ```
 
 
-### 4. Add scripts
+4. **Add scripts**
 
 In `package.json` add the following scripts:
 
@@ -66,7 +68,7 @@ In `package.json` add the following scripts:
 ```
 
 
-### 5. Run the project
+5. **Run the project**
 
 ```
 yarn start
@@ -75,7 +77,7 @@ yarn start
 > Note: The above command will open `index.html` on port 20221.
 
 
-### 6. Add an element with id="app" in `index.html`
+6. **Add an element with id="app" in `index.html`**
 
 ```
 <div id="app">
@@ -84,7 +86,7 @@ yarn start
 ```
 
 
-### 7. Add a script to initialize Vue 2 app
+7. **Add a script to initialize Vue 2 app**
 
 ```
 <script>
@@ -98,7 +100,7 @@ yarn start
 ```
 
 
-### 8. Display Vue 2 data within the element with id="app"
+8. **Display Vue 2 data within the element with `id="app"`**
 
 ```
 <div id="app">
