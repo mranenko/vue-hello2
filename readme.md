@@ -30,9 +30,7 @@ yarn start
 
 ## Steps to re-create this project
 
-1. **Initialize `yarn`**
-
-Initialize `yarn` and create `package.json`.
+1. **Initialize `yarn` (this will generate initial `package.json`)**
 
 ```
 yarn init
@@ -58,7 +56,7 @@ yarn add vue@2.6.14
 
 4. **Add scripts**
 
-In `package.json` add the following scripts:
+In `package.json` add the following scripts for development:
 
 ```
 "scripts": {
